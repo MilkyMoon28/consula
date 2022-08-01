@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <header id="header">
 
         <nav class="navbar">
@@ -39,13 +40,17 @@
                 </article>
                 <button class="start-btn">Get Started</button>
             </section>
+        </div>
+        <div class="wrapper">
             <section class="about_page">
+                <div class="about_us_experience">
 
-                <img class="about_page_photo" src="/img/about-us.png">
-                <div class="expireince">
-                    <h1 class="expireince_text"> <span style="font-weight: bold ; font-size: 3rem;"> 50 years</span>
-                        <br> OF EXPERIENCE
-                    </h1>
+                    <img class="about_page_photo" src="/img/about-us.png">
+                    <div class="expireince">
+                        <h1 class="expireince_text"> <span style="font-weight: bold ; font-size: 3rem;"> 50 years</span>
+                            <br> OF EXPERIENCE
+                        </h1>
+                    </div>
                 </div>
 
                 <article class="about_us_article">
@@ -55,11 +60,13 @@
                         blanditiis nihil, consectetur. Consequuntur eum inventore, rem maxime, nisi excepturi ipsam
                         libero ratione adipisci alias eius vero vel!</p>
 
-                    <button class="learn_button">Learn More</button>
+                    <button class="section_btn">Learn More</button>
                 </article>
 
             </section>
+        </div>
 
+        <div class="wrapper">
             <section class="team_section">
                 <article class="team_section_title">
                     <p class="pre_title">team</p>
@@ -178,6 +185,8 @@
 
                 </section>
             </section>
+        </div>
+        <div class="wrapper">
 
             <section class="service_section">
                 <p class="pre_title">services</p>
@@ -267,6 +276,8 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div class="wrapper">
 
             <section class="testimonials_section">
                 <p class="pre_title">people says</p>
@@ -326,6 +337,8 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div class="wrapper">
 
             <section class="blog">
                 <p class="pre_title">blog</p>
@@ -375,20 +388,36 @@
                     </div>
                 </div>
             </section>
-
+        </div>
+        <div class="wrapper">
             <section class="service">
                 <p class="pre_title">services</p>
                 <h1 class="title">Our Services</h1>
 
-
                 <div class="our_service">
-                    <div class="services">
+                    <div class="services_info">
                         <p class="contact">Contact Form</p>
                         <div class="name_inpt">
-
-                            <h4>Name</h4>
-                            <input type="text">
-                            <input type="text">
+                            <div class="first_name">
+                                <label for="service_name_inpt">First Name</label>
+                                <input class="service_name_inpt" type="text">
+                            </div>
+                            <div class="last_name">
+                                <label for="service_last_inpt">Last Name</label>
+                                <input class="service_last_inpt" type="text">
+                            </div>
+                        </div>
+                        <div class="personal_info">
+                            <label for="service_mail_inpt">Email</label>
+                            <input class="service_mail_inpt" type="text">
+                            <label for="service_sub_inpt">Subject</label>
+                            <input class="service_sub_inpt" type="text">
+                            <label for="inpt_message">Message</label>
+                            <input class="inpt_message" type="text"
+                                placeholder="Write your notes or questions here . . .">
+                            <div>
+                                <button class="section_btn">Send Message</button>
+                            </div>
                         </div>
                     </div>
                     <div class="services">
@@ -403,10 +432,50 @@
 
                     </div>
                 </div>
+
+            </section>
         </div>
-        </section>
-        </div>
+
+
     </main>
+
+    <footer id="upper_footer">
+        <div class="footer_wrapper">
+
+            <p>Let's Get Started</p>
+        </div>
+    </footer>
+    <footer id="bottom_footer">
+        <div class="bottom_footer_wrapper">
+            <div class="about_footer">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum
+                    autem. Amet aliquid nesciunt veritatis aliquam.</p>
+            </div>
+            <ul class="quick_links">
+                <h3>Quick Links</h3>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Testimonials</li>
+                <li>Contact Us</li>
+            </ul>
+            <div class="social_media_footer">
+                <h3>Follow us</h3>
+                <img src="./img/facebook.png">
+                <img src="./img/instagram.png">
+                <img src="./img/linkedin.png">
+                <img src="./img/twitter.png">
+            </div>
+            <div class="subscribe">
+                <h3>Subscribe Newsletter</h3>
+                <div class="news_butn_inpt">
+
+                    <input type="text" class="enter" placeholder="Enter Email" aria-describedby="send_button">
+                    <button class="send_button">Send</button>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
