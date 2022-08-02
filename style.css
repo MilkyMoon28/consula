@@ -476,7 +476,6 @@ body {
     html {
         font-size: 95%;
     }
-
 }
 @media only screen and (max-width: 1600px) {
     html {
@@ -495,7 +494,7 @@ body {
     body {
         height: 40rem;
     }
-    
+
     .about_page_photo {
         width: 440px;
     }
@@ -507,7 +506,7 @@ body {
     html {
         font-size: 75%;
     }
-    
+
     .expireince {
         top: 29rem;
     }
@@ -521,7 +520,7 @@ body {
     .wrapper {
         padding: 0 14rem;
     }
-    
+
     .service_box {
         gap: 3rem 1rem;
     }
@@ -530,7 +529,7 @@ body {
     .wrapper {
         padding: 0 10rem;
     }
-    
+
     .about_us_article {
         padding: 10rem 1rem 0 6rem;
     }
@@ -544,7 +543,7 @@ body {
     .wrapper {
         padding: 0 8rem;
     }
-    
+
     .blog_items {
         padding: 0 1rem;
     }
@@ -556,7 +555,7 @@ body {
     .wrapper {
         padding: 1rem;
     }
-    
+
     .home_section_article {
         margin-top: 10rem;
     }
@@ -582,15 +581,157 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-    .navbar {
-        background: rgb(197, 170, 148);
-    }
     body {
         background: url(img/bg-pic.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         height: 40rem;
+    }
+    .context_testimonial p {
+        margin-bottom: 5rem;
+    }
+    .enter {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .wrapper {
+        padding: 4rem;
+    }
+    .home_section_article {
+        margin-top: 5rem;
+        padding-right: 15rem;
+    }
+    .about_page {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_us_article {
+        padding: 4rem 18rem 0 0;
+        margin-left: 10rem;
+    }
+    .expireince {
+        right: -1rem;
+    }
+    .work_table {
+        flex-direction: column;
+    }
+    .service_box {
+        grid-template-columns: auto auto;
+    }
+    .testimonial_team_text {
+        padding: 2rem 0;
+    }
+    .context_testimonial {
+        padding: 0rem;
+        margin-bottom: 10rem;
+    }
+    .lead_testimonial {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .lead_testimonial img {
+        margin-top: 1rem;
+    }
+    .blog_boxes {
+        margin-left: 1rem;
+    }
+
+    .enter {
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    html {
+        font-size: 80%;
+    }
+
+    .about_us_article {
+        padding: 6rem 10rem 0 0;
+        margin-left: 6rem;
+    }
+    .team_wrapper {
+        flex-direction: column;
+    }
+    .title {
+        margin-bottom: 3rem;
+    }
+    .context_testimonial {
+        padding-bottom: 10rem;
+        padding: 0;
+    }
+
+    .about_people {
+        padding-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .wrapper {
+        padding: 0 4rem;
+    }
+    .navbar {
+        font-size: 70%;
+    }
+    .about_us_article {
+        padding-top: 3rem;
+
+    }
+    .menu_bar_items {
+        margin-left: 1rem;
+    }
+    .service_box {
+        grid-template-columns: auto;
+    }
+    .bottom_footer_wrapper {
+        display: grid;
+    }
+    .about_footer p {
+        margin-right: 0;
+    }
+    .quick_links {
+        padding: 3rem 0;
+    }
+    .subscribe {
+        margin: 2rem 0rem;
+    }
+    .our_service {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .wrapper{
+        padding: 0 0.5rem;
+    }
+    .navbar{
+        justify-content: start;
+    }
+    .logo{
+        font-size: 1rem;
+    }
+    .home_section_article {
+        margin-top: 4rem;
+        padding: 0;
+    }
+    .menu_bar_items{
+        margin-left: 0.5rem;
+    }
+    .about_page_photo {
+        width: 330px;
+    }
+    .expireince{
+        top: 18rem;
+        padding: 0.3rem;
+        font-size: 90%;
+    }
+
+    .about_us_article{
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .blog_items{
+        width: 70%;
     }
 
 }
